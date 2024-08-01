@@ -15,6 +15,9 @@ st.write(params)
 
 # Extract and display individual parameters
 for key, value in params.items():
+    new_row = [f"{key}: {value}"]
+    # Adicionar a nova linha na planilha
+    worksheet.append_row(new_row)
     st.write(f"{key}: {value}")
 
 # Configurar o escopo e autenticação
