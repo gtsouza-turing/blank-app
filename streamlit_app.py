@@ -4,7 +4,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 import json
 
 # Set the page title
-st.title("Streamlit App Endpoint")
+st.title("Streamlit App Endpoint!")
 
 # Get query parameters
 params = st.experimental_get_query_params()
